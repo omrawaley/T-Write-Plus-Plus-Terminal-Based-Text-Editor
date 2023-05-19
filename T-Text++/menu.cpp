@@ -1,17 +1,18 @@
 /*
-Copyright 2023 Om Rawaley (@omrawaley)
+	Copyright 2023 Om Rawaley (@omrawaley)
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+    This file is part of T-Text++.
 
-    http://www.apache.org/licenses/LICENSE-2.0
+    T-Text++ is free software: you can redistribute it and/or modify it under the terms of the GNU General 
+	Public License as published by the Free Software Foundation, either version 3 of the License, or (at your 
+	option) any later version.
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+    T-Text++ is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even 
+	the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+	GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with T-Text++. If not, see 
+	<https://www.gnu.org/licenses/>. 
 */
 
 #include "menu.h"
@@ -92,19 +93,7 @@ void Menu::help()
 void Menu::license()
 {
     std::string projectLicense = 
-    "Copyright 2023 Om Rawaley (@omrawaley)\n"
-    "\n"
-    "Licensed under the Apache License, Version 2.0 (the \"License\");\n"
-    "you may not use this file except in compliance with the License.\n"
-    "You may obtain a copy of the License at\n"
-    "\n"
-    "    http://www.apache.org/licenses/LICENSE-2.0\n"
-    "\n"
-    "Unless required by applicable law or agreed to in writing, software\n"
-    "distributed under the License is distributed on an \"AS IS\" BASIS,\n"
-    "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n"
-    "See the License for the specific language governing permissions and\n"
-    "limitations under the License.\n";
+    "Copyright 2023 Om Rawaley (@omrawaley)\n\nT-Text++ is free software: you can redistribute it and/or modify it under the terms of the GNU General \nPublic License as published by the Free Software Foundation, either version 3 of the License, or (at your \noption) any later version.\n\nT-Text++ is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even \nthe implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the \nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with T-Text++. If not, see \n<https://www.gnu.org/licenses/>.\n"; 
 
     std::cout << "\n" << projectLicense;
 
