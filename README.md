@@ -35,5 +35,5 @@ T-Text++ is distributed in the hope that it will be useful, but WITHOUT ANY WARR
 the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
 GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with T-Text. If not, see 
+You should have received a copy of the GNU General Public License along with T-Text++. If not, see 
 <https://www.gnu.org/licenses/>. 
