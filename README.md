@@ -25,10 +25,15 @@ Method 2: Double click on `T-Text++`. A new terminal window running T-Text++ sho
 
 ## License Notice:
 
-This work is protected under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0). If you wish to re-distribute or modify this code, you must abide by the Apache 2.0 license terms.
+Copyright 2023 Om Rawaley (@omrawaley)
 
-These Include:
+T-Text++ is free software: you can redistribute it and/or modify it under the terms of the GNU General 
+Public License as published by the Free Software Foundation, either version 3 of the License, or (at your 
+option) any later version.
 
-- Including a copy of the original copyright notice
-- A copy of the license itself
-- A disclosure of any changes made to the code
+T-Text++ is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even 
+the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with T-Text. If not, see 
+<https://www.gnu.org/licenses/>. 
