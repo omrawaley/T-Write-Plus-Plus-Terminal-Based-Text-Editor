@@ -12,5 +12,5 @@
 #See the License for the specific language governing permissions and
 #limitations under the License.
 
-program:
-	g++ main.cpp menu.cpp fileEditing.cpp -o program -std=c++11
+T-Text++:
+	g++ main.cpp menu.cpp fileEditing.cpp -o T-Text++ -std=c++11
