@@ -37,11 +37,12 @@ the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with T-Text++. If not, see 
-<https://www.gnu.org/licenses/>. 
+<https://www.gnu.org/licenses/>.
 
 ### Terms
 
-- Include a copy of the full license text
-- State all significant changes made to the original software
-- Make available the original source code when you distribute any binaries based on the licensed work
-- Include a copy of the original copyright notice
+- Redistribution and modification is permitted as long as you abide by the redistribution terms
+- The Authour or license cannot be held liable for any damage caused
+- Must include a copy of the license as well as the original copyright notice when distributing
+- Must state all changes made to the software when distributing
+- Must disclose the source code and release it under the same license (GPL 3.0) when distributing
