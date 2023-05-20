@@ -7,6 +7,7 @@ T-Text++ includes a few basic features:
 
 - Reading a file
 - Editing a file
+- Creating a new file
 - Deleting a file
 
 Using the command `help` in the T-Text++ menu will display a list of possible actions.
