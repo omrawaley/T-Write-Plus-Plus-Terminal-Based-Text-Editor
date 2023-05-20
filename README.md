@@ -17,7 +17,7 @@ T-Write++ includes a few basic features:
 
 Using the command `help` in the T-Write++ menu will display a list of possible actions.
 
-<img width="380" alt="image" src="https://github.com/omrawaley/T-Text-Plus-Plus-Terminal-Based-Text-Editor/assets/133281331/01551699-33af-48f0-a111-53b761913316">
+<img width="300" alt="image" src="https://github.com/omrawaley/T-Write-Plus-Plus-Terminal-Based-Text-Editor/assets/133281331/e22d6f5a-036d-4596-b13f-9c739410f0de">
 
 It has a menu system quite reminiscent of the command-line Python (`python` or `python3`) and Lua (`lua`), as well as the PICO-8 and TIC-80 fantasy consoles.
 
