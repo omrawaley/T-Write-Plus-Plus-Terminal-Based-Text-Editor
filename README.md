@@ -38,3 +38,10 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with T-Text++. If not, see 
 <https://www.gnu.org/licenses/>. 
+
+### Terms
+
+- Include a copy of the full license text
+- State all significant changes made to the original software
+- Make available the original source code when you distribute any binaries based on the licensed work
+- Include a copy of the original copyright notice
