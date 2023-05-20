@@ -1,5 +1,8 @@
 # T-Text++ Terminal-Based Text Editor
-T-Text++ is a terminal-based text editor written in C++ for Unix-like operating systems (MacOS, Linux, etc.). It has many different features, and boasts a very user-friendly intuitive syntax/user interface, very reminiscent of the command-line Python and Lua, as well as the Pico-8 fantasy console.
+T-Text++ is a terminal-based text editor written in C++ for Unix-like operating systems (MacOS, Linux, etc.). It has many different features, and boasts a very user-friendly intuitive syntax/user interface, very reminiscent of the command-line Python and Lua, as well as the Pico-8 fantasy console. It can be used for general-purpose text editing, note-taking, and even programming!
+
+<img width="500" alt="image" src="https://github.com/omrawaley/T-Text-Plus-Plus-Terminal-Based-Text-Editor/assets/133281331/1f3cde98-a11a-426b-a4e9-489f3105a214">
+
 
 ## Features:
 
