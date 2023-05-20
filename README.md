@@ -5,6 +5,8 @@ It can be used for general-purpose text editing, note-taking, and even basic pro
 
 <img width="530" alt="image" src="https://github.com/omrawaley/T-Write-Plus-Plus-Terminal-Based-Text-Editor/assets/133281331/65bbb686-c6af-4b3d-8401-85702c9b46bb">
 
+(The program shown above (source and executable) is available in the `DemoProgram` folder)
+
 
 ## Features:
 
