@@ -49,7 +49,7 @@ You should have received a copy of the GNU General Public License along with T-W
 ### Terms
 
 - Redistribution and modification is permitted as long as you abide by the redistribution terms
-- The author or license cannot be held liable for any damage caused
+- The author or license cannot be held liable for any damage caused by the software
 - Must include a copy of the license as well as the original copyright notice when distributing
 - Must state all changes made to the software when distributing
 - Must disclose the source code and release it under the same license (GPL 3.0) when distributing
