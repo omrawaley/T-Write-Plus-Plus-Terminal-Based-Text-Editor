@@ -37,10 +37,10 @@ void Menu::selectAction()
         this->license();
     }
 
-    /*if(choice == "path")
+    if(choice == "path")
     {
-        this->setPath();
-    }*/
+        //this->setPath();
+    }
 
     if(choice == "quit")
     {
@@ -87,6 +87,9 @@ void Menu::help()
     std::cout << "\nBackspace: delete last character";
     std::cout << "\nESC: return to menu\n";
 
+    std::cout << "\nCTRL + J: move cursor left";
+    std::cout << "\nCTRL + L: move cursor right\n";
+
     menu.selectAction();
 }
 
@@ -113,9 +116,5 @@ std::string Menu::getFilename()
 
 void Menu::setPath()
 {
-    std::string path;
-
-    std::cout <<"\nPath: ";
-
-    std::cin >> path;
+    
 }

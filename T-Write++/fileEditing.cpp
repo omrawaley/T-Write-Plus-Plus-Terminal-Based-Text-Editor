@@ -42,7 +42,7 @@ void FileEditing::editFile(std::string filename)
         std::cout << "\033[2J\033[1;1H";
         //system("CLS"); //if you are on Windows, comment the line above and uncomment this one
 
-        std::cout << "Editing: " << filename << "  " << saved;
+        std::cout << "Editing: " << filename << "  " << saved << "  " << "Cursor Index: " << cursor.getCursorIndex();
         std::cout << "\n" << "————————————————————————————————————————————————————————————————————————————" << "\n\n"; 
         std::cout << fileContent;
 
@@ -54,41 +54,64 @@ void FileEditing::editFile(std::string filename)
         system("stty echo"); //only works on Unix-like systems (MacOS, Linux, etc.)
         system("stty cooked"); //only works on Unix-like systems (MacOS, Linux, etc.)
 
-        if(key == Keys::grave)
+        switch(key)
         {
-            std::ofstream fileSave(filename);
+            case Keys::save:
+            {
+                std::ofstream fileSave(filename);
 
-            fileSave << fileContent;
+                fileSave << fileContent;
 
-            saved = saveStatus.saved;
-        }
-        else if(key == Keys::enter)
-        {
-            fileContent += "\n";
+                saved = saveStatus.saved;
+            }
+                break;
+            
+            case Keys::enter:
+                fileContent += "\n";
 
-            saved = saveStatus.notSaved;
-        }
-        else if(key == Keys::backspace)
-        {
-            fileContent = fileContent.substr(0, fileContent.length() - 1);
+                cursor.setCursorIndex(cursor.getCursorIndex() + 1);
 
-            saved = saveStatus.notSaved;
-        }
-        else if(key == Keys::esc)
-        {
-            fileContent = "";
+                saved = saveStatus.notSaved;
+                break;
 
-            file.close();
+            case Keys::backspace:
+                if(cursor.getCursorIndex() > 0)
+                {
+                    cursor.setCursorIndex(cursor.getCursorIndex() - 1);
 
-            std::cout << "\n";
+                    fileContent.erase(cursor.getCursorIndex(), 1);
+                }
 
-            menu.selectAction();
-        }
-        else
-        {
-            fileContent += key;
+                saved = saveStatus.notSaved;
+                break;
 
-            saved = saveStatus.notSaved;
+            case Keys::exit:
+                fileContent = "";
+
+                file.close();
+
+                std::cout << "\n";
+
+                menu.selectAction();
+                break;
+
+            case Keys::cursorLeft:
+                if(cursor.getCursorIndex() > 0) 
+                    cursor.moveCursorLeft();
+                break;
+
+            case Keys::cursorRight:
+                if(cursor.getCursorIndex() < fileContent.length())
+                    cursor.moveCursorRight();
+                break;
+
+            default: 
+                fileContent.insert(cursor.getCursorIndex(), 1, key);
+
+                cursor.setCursorIndex(cursor.getCursorIndex() + 1);
+
+                saved = saveStatus.notSaved;
+                break;
         }
     }
 }

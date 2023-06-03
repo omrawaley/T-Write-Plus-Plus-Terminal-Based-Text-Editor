@@ -22,6 +22,8 @@ You should have received a copy of the GNU General Public License along with T-W
 #include <cstdlib>
 #include <string>
 
+#include "cursor.h"
+
 class FileEditing
 {
 	private:
@@ -33,10 +35,12 @@ class FileEditing
 		
 		struct Keys
 		{
-			static constexpr int grave = 96;
+			static constexpr int save = 96;
 			static constexpr int enter = 13;
 			static constexpr int backspace = 127;
-			static constexpr int esc = 27;
+			static constexpr int exit = 27;
+			static constexpr int cursorLeft = 10;
+			static constexpr int cursorRight = 12;
 		};
 
 	public:

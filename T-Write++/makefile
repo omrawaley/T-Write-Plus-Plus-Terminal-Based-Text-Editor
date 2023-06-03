@@ -15,4 +15,4 @@
 
 
 T-Write++:
-	g++ main.cpp menu.cpp fileEditing.cpp -o T-Write++ -std=c++11
+	g++ main.cpp menu.cpp fileEditing.cpp cursor.cpp -o T-Write++ -std=c++11
