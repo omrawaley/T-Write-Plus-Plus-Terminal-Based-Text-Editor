@@ -15,19 +15,25 @@ You should have received a copy of the GNU General Public License along with T-W
 <https://www.gnu.org/licenses/>. 
 */
 
+#pragma once
+
 #include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <string>
 
-#include "src/menu.h"
-#include "src/fileEditing.h"
-
-Menu menu;
-FileEditing fileEditing;
-Cursor cursor;
-
-int main()
+class Menu
 {
-    std::cout << "\nT-Write++  1.1.0\n";
-    std::cout << "\nType \"help\" for a list of commands.\n";
+	private:
+		void help();
+		void license();
 
-    menu.selectAction();
-}
+		std::string getFilename();
+
+		void setPath();
+
+	public:
+		void selectAction();
+};
+
+extern Menu menu;
