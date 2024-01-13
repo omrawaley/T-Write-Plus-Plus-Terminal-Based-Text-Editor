@@ -33,7 +33,7 @@ It has a menu system quite reminiscent of the command-line Python (`python` or `
 
 ## To Use:
 
-### Unix:
+### MacOS/Linux:
 
 ### Windows:
 
