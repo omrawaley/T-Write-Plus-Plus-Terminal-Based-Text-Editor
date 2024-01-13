@@ -2,7 +2,7 @@
 
 **Version 1.1.0 now out with new cursor system.**
 
-T-Write++ is a terminal-based text editor written in C++ for Unix-like operating systems (MacOS, Linux, etc.). It has many different features, and boasts a very user-friendly intuitive syntax/user interface, very reminiscent of the command-line Python and Lua, as well as the Pico-8 fantasy console. 
+T-Write++ is a terminal-based text editor written in C++. It has many different features, and boasts a very user-friendly intuitive syntax/user interface, very reminiscent of the command-line Python and Lua, as well as the Pico-8 fantasy console. 
 
 It can be used for general-purpose text editing, note-taking, and even basic programming!
 
@@ -33,15 +33,13 @@ It has a menu system quite reminiscent of the command-line Python (`python` or `
 
 ## To Use:
 
-Method 1: Use the command `cd "folder path"` to make the current directory the one with the `T-Write++` executable, then use the command `./program` to run T-Text++. 
+### Unix:
 
-Note: You can move the `T-Write++` executable to a different folder, in which `"folder path"` becomes. (I reccomend your home folder (MacOS: `/Users/user`, Linux: `/home/user`) since the terminal uses that directory by default, so you can skip the first step.)
-
-Method 2: Double click on `T-Write++`. A new terminal window running T-Write++ should appear.
+### Windows:
 
 ## License Notice:
 
-Copyright 2023 Om Rawaley (@omrawaley)
+Copyright 2023-2024 Om Rawaley (@omrawaley)
 
 T-Write++ is free software: you can redistribute it and/or modify it under the terms of the GNU General 
 Public License as published by the Free Software Foundation, either version 3 of the License, or (at your 
