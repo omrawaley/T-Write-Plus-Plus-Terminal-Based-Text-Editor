@@ -8,7 +8,7 @@ It can be used for general-purpose text editing, note-taking, and even basic pro
 
 <img width="530" alt="image" src="https://github.com/omrawaley/T-Write-Plus-Plus-Terminal-Based-Text-Editor/assets/133281331/4c65b432-6767-4d07-bd54-df042a4e8a71">
 
-(The program shown above (source and executable) is available in the `DemoProgram` folder)
+(The program shown above—source and executable—is available in the `DemoProgram` folder)
 
 
 ## Features:
@@ -24,7 +24,6 @@ There is even a cursor system that allows you to append and remove text from any
 
 <img width="530" alt="image" src="https://github.com/omrawaley/T-Write-Plus-Plus-Terminal-Based-Text-Editor/assets/133281331/a5bd08c7-36fb-489f-8e49-6314da091954">
 
-
 Using the command `help` in the T-Write++ menu will display a list of possible actions.
 
 <img width="300" alt="image" src="https://github.com/omrawaley/T-Write-Plus-Plus-Terminal-Based-Text-Editor/assets/133281331/9268b59c-68ca-4d2a-aac9-7ab5d631deb9">
@@ -33,7 +32,15 @@ It has a menu system quite reminiscent of the command-line Python (`python` or `
 
 ## To Use:
 
+T-Write++ uses Unix-specific system commands which are only available on MacOS and Linux. A Dockerfile is included that can create a Linux virtual machine and enable you to run the application on Windows.
+
 ### MacOS/Linux:
+
+Run the Makefile:
+`make -B`
+
+Run the program:
+`./program`
 
 ### Windows:
 
