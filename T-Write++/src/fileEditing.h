@@ -1,5 +1,5 @@
 /*
-Copyright 2023 Om Rawaley (@omrawaley)
+Copyright 2023-2024 Om Rawaley (@omrawaley)
 
 This file is part of T-Write++.
 
