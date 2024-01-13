@@ -44,25 +44,7 @@ Run the program:
 
 ### Windows:
 
-## License Notice:
+Build the Docker image: `docker build . -t twrite`
 
-Copyright 2023-2024 Om Rawaley (@omrawaley)
-
-T-Write++ is free software: you can redistribute it and/or modify it under the terms of the GNU General 
-Public License as published by the Free Software Foundation, either version 3 of the License, or (at your 
-option) any later version.
-
-T-Write++ is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even 
-the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the 
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with T-Write++. If not, see 
-<https://www.gnu.org/licenses/>.
-
-### Terms
-
-- Redistribution and modification is permitted as long as you abide by the redistribution terms
-- The author or license cannot be held liable for any damage caused by the software
-- Must include a copy of the license as well as the original copyright notice when distributing
-- Must state all changes made to the software when distributing
-- Must disclose the source code and release it under the same license (GPL 3.0) when distributing
+Run the image: `docker run -it twrite`
+(Note: the program will immediately quit if you omit the `it` flag)
